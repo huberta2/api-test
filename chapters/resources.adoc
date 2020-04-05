@@ -58,7 +58,11 @@ side.
 
 
 [#142]
+== {SHOULD} use domain-specific resource names
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use domain-specific resource names
+////
 
 API resources represent elements of the application’s domain model. Using
 domain-specific nomenclature for resource names helps developers to understand
