@@ -12,8 +12,7 @@ entities exposed as resources that are identified via URIs and can be
 manipulated via standardized CRUD-like methods using different
 representations, and hypermedia. RESTful APIs
 tend to be less use-case specific and comes with less rigid client /
-server coupling and are more suitable for an ecosystem of (core) services 
-providing a platform of APIs to build diverse new business services. 
+server coupling and are more suitable as a platform interface being open for diverse client applications. 
 We apply the RESTful web service principles to all kind of application 
 (micro-) service components, independently from whether they provide 
 functionality via the internet or intranet. 
