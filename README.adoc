@@ -3,7 +3,7 @@
 https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg?branch=master[Build Status]]
 
 Latest published version:
-https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*HTML*],
+https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*HTML*]
 
 == Purpose
 
