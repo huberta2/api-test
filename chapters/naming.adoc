@@ -165,8 +165,11 @@ deliver the same results whether they have the trailing slash or not.
 
 
 [#137]
+== {SHOULD} stick to conventional query parameters
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} stick to conventional query parameters
-
+////
 If you provide query support for searching, sorting, filtering, and
 paginating, you must stick to the following naming conventions:
 
