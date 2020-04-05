@@ -1,6 +1,6 @@
 = Developing Restful APIs: A Comprehensive Set of Guidelines by SISMAGE & Apollo
 
-https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg?branch=master[Build Status]]
+https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_conversion/badge.svg?branch=master[Build Status]]
 
 Latest published version:
 https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*HTML*]
