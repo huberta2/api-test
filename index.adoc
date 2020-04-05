@@ -206,7 +206,9 @@
 
 image::assets/logo_CIG_APOLLO.png[API Guild Logo]
 
-Other formats: link:apollo-guidelines.pdf[PDF], link:apollo-guidelines.epub[EPUB3]
+Other formats: link:apollo-guidelines.pdf[PDF], link:apollo-guidelines.epub[EPUB3] +
+
+HTML Generation : 
 https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg?branch=master[Build Status]]
 
 toc::[]
