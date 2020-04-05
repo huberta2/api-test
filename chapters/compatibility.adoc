@@ -311,8 +311,8 @@ media type versioning and content negotiation (see above).
 ////
 [#1002]
 == {MUST} use URI versioning
-
 With URI versioning a (major) version number is included in the path, e.g.
-`https://api.apollo.total/SampleAPI/v1/Accounts/76873`. 
+`GET /v1/orders`. 
 The consumer has to wait until the provider has been released
 and deployed.
+Two versions should be supported at most at the same time (Native apps need a longer cycle).
