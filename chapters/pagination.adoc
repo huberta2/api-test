@@ -3,8 +3,11 @@
 
 
 [#159]
+== {SHOULD} support pagination
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} support pagination
-
+////
 Access to lists of data items must support pagination to protect the service
 against overload as well as for best client side iteration and batch processing
 experience. This holds true for all lists that are (potentially) larger than
