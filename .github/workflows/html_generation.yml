@@ -1,4 +1,4 @@
-name: build html from adocs to gh-pages branch
+name: html_generation
 
 on:
   push:
