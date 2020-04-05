@@ -16,7 +16,7 @@ Each new or refactored API SHOULD be reviewed through this process.
 == Feedback
 We have now done a couple of API design reviews. Please give us feedback how we can improve this process!
 
-[#10001]
+[#1001]
 == {SHOULD} API Design Review Process
 
 *Who is responsible for scheduling the review?*
