@@ -3,7 +3,8 @@
 
 Definitions of data objects that are good candidates for wider usage:
 
-
+////
+*APOLLO-Commented paragraph* not valid in APOLLO context 
 [#173]
 == {MUST} use the common money object
 
@@ -88,7 +89,7 @@ Some JSON parsers (NodeJS’s, for example) convert numbers to floats by default
 After discussing the pros and cons we’ve decided on "decimal" as our amount
 format. It is not a standard Open API format, but should help us to avoid parsing
 numbers as float / doubles.
-
+////
 
 [#174]
 == {MUST} use common field names and semantics
