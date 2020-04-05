@@ -308,6 +308,7 @@ media type versioning and content negotiation (see above).
 
 ////
 *APOLLO-Commented paragraph* in APOLLO context we strongly recommand URI versionning
+////
 [#1002]
 == {MUST} use URI versioning
 
