@@ -32,7 +32,7 @@ security:
 ----
 
 [#105]
-== {SHOUD} define and assign permissions (scopes)
+== {SHOULD} define and assign permissions (scopes)
 ////
 *APOLLO-Commented paragraph* SHOUD and not MUST 
 == {MUST} define and assign permissions (scopes)
