@@ -41,3 +41,6 @@ It is up to the API designer and reviewer how to perform the review. It is a goo
 and step through the API and talk with the reviewers about the functionality and intention.
 That's a good way to cut down review times because questions and missunderstandings can be solved immediately.
 Others prefer to review the API without a formal meeting.
+
+---
+This chapter was adopted from the https://github.com/Haufe-Lexware/api-style-guide/blob/master/api-design-review-process/api-design-review-process.md[Haufe-Lexware/api-style-guide]
