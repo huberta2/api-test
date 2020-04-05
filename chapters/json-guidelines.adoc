@@ -163,6 +163,8 @@ Empty array values can unambiguously be represented as the empty list, `[]`.
 
 Strings are a reasonable target for values that are by design enumerations.
 
+////
+*APOLLO-Commented paragraph* not valid in APOLLO context 
 
 [#235]
 == {SHOULD} name date/time properties with `_at` suffix
@@ -178,7 +180,7 @@ names:
 
 **Note:** {created} and {modified} were mentioned in an earlier version of the
 guideline and are therefore still accepted for APIs that predate this rule.
-
+////
 
 [#126]
 == {SHOULD} define dates properties compliant with RFC 3339
