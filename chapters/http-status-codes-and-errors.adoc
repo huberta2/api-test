@@ -234,8 +234,11 @@ about your request processing status or error situations.
 
 
 [#152]
+== {SHOULD} use code 207 for batch or bulk requests
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use code 207 for batch or bulk requests
-
+////
 Some APIs are required to provide either _batch_ or _bulk_ requests using
 {POST} for performance reasons, i.e. for communication and processing
 efficiency. In this case services may be in need to signal multiple response
