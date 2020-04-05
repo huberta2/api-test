@@ -227,8 +227,11 @@ self-describe the full functionality of a resource.
 
 
 [#149]
+== {SHOULD} fulfill common method properties
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} fulfill common method properties
-
+////
 Request methods in RESTful services can be...
 
 * [[safe, safe]]{RFC-safe} - the operation semantic is defined to be read-only,
