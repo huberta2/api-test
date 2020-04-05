@@ -3,7 +3,11 @@
 
 
 [#106]
+== {SHOULD} not break backward compatibility
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST 
 == {MUST} not break backward compatibility
+////
 
 Change APIs, but keep all consumers running. Consumers usually have independent
 release lifecycles, focus on stability, and avoid changes that do not provide
