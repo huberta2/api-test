@@ -4,6 +4,10 @@
 
 [#223]
 == {SHOULD} use functional naming schema
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST/SHOULD in APOLLO context 
+== {MUST/SHOULD} use functional naming schema
+////
 
 Functional naming is a powerful, yet easy way to align global resources as
 _host_, _permission_, and _event names_ within an the application landscape. It
