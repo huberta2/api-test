@@ -45,16 +45,21 @@ for IntelliJ IDEA] to create your first API. To explore and validate/evaluate
 existing APIs the https://editor.swagger.io/[Swagger Editor] or our
 https://apis.zalando.net[API Portal] may be a good starting point.
 
+////
+*APOLLO-Commented paragraph* GraphQL not in our scope
+
 *Hint:* We do not yet provide guidelines for https://graphql.org/[GraphQL]. 
-Following our https://techradar.zalando.net/languages/graphql.html[Zalando
-Tech Radar [internal link]], we focus on resource oriented HTTP/REST API style
+We focus on resource oriented HTTP/REST API style
 (and related tooling and infrastructure support) for general purpose
 peer-to-peer microservice communication. Here, we think that GraphQL has no
 major benefits, but a couple of downsides compared to REST. However, GraphQL
 can provide a lot of value for specific target domain problems, especially
 backends for frontends (BFF) and mobile clients, and here we already make use
 of GraphQL as API technology for our DX Interface Framework. 
+////
 
+////
+*APOLLO-Commented paragraph* No external/remote references as we are not managing it 
 
 [#234]
 == {MUST} only use durable and immutable remote references
@@ -76,7 +81,7 @@ service URLs.
 As we control these URLs, we ensure that their content is *durable* and
 *immutable*. This allows to define API specifications by using fragments
 published via this sources, as suggested in <<151>>.
-
+////
 
 [#102]
 == {SHOULD} provide API user manual
