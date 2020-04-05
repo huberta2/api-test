@@ -12,8 +12,11 @@ dates.
 
 
 [#185]
+== {SHOULD} obtain approval of clients before API shut down
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} obtain approval of clients before API shut down
-
+////
 Before shutting down an API, version of an API, or API feature the producer
 must make sure, that all clients have given their consent on a sunset date.
 Producers should help consumers to migrate to a potential new API or API
@@ -58,8 +61,11 @@ breaking effects on ongoing consumers. See also <<193>>.
 
 
 [#189]
+== {MAY} add `Deprecation` and `Sunset` header to responses
+////
+*APOLLO-Commented paragraph* MAY and not SHOULD in APOLLO context 
 == {SHOULD} add `Deprecation` and `Sunset` header to responses
-
+////
 During the deprecation phase, the producer should add a `Deprecation: <date-time>`
 (see https://tools.ietf.org/html/draft-dalal-deprecation-header[draft: RFC
 Deprecation HTTP Header]) and - if also planned - a `Sunset: <date-time>` (see
@@ -93,7 +99,8 @@ https://tools.ietf.org/html/draft-ietf-httpbis-cache-06[draft: RFC HTTP
 Caching], and our syntax was not compliant with {RFC-7234}#page-29[RFC 7234
 -- Warning header].
 
-
+////
+*APOLLO-Commented paragraph* not in APOLLO scope 
 [#190]
 == {SHOULD} add monitoring for `Deprecation` and `Sunset` header
 
@@ -104,6 +111,7 @@ ensure alignment with service owners on required migration task.
 
 *Hint:* In earlier guideline versions, we used the `Warning` header to provide
 the deprecation info (see hint in <<189>>).
+////
 
 [#191]
 == {MUST} not start using deprecated APIs
