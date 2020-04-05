@@ -32,8 +32,9 @@ security:
 ----
 
 [#105]
-== {MUST} define and assign permissions (scopes)
-
+== {SHOUD} define and assign permissions (scopes)
+////== {MUST} define and assign permissions (scopes)
+////
 APIs must define permissions to protect their resources. Thus, at least one
 permission must be assigned to each endpoint. Permissions are defined as shown
 in the <<104, previous section>>.
