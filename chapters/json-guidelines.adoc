@@ -102,7 +102,12 @@ unknown.
 
 
 [#123]
+== {SHOULD} use same semantics for `null` and absent properties
+== TO BE REVIEWED BY SISMAGE & APOLLO TO DECIDE IF THIS RULE {MUST} BE APPLIED
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use same semantics for `null` and absent properties
+////
 
 Open API 3.x allows to mark properties as `required` and as `nullable` to
 specify whether properties may be absent (`{}`) or `null` (`{"example":null}`).
