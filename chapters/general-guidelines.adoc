@@ -38,11 +38,17 @@ make it discoverable for the group via our https://developper-np.apollo.total/[A
 [internal link]].
 
 *Hint:* A good way to explore *Open API 3.0/2.0* is to navigate through the
-https://openapi-map.apihandyman.io/[Open API specification mind map] and use
+https://openapi-map.apihandyman.io/[Open API specification mind map]
+
+////
+*APOLLO-Commented paragraph* No external/remote references as we are not managing it 
+and use
 our https://plugins.jetbrains.com/search?search=swagger+Monte[Swagger Plugin
-for IntelliJ IDEA] to create your first API. To explore and validate/evaluate
+for IntelliJ IDEA] to create your first API.
+////
+To explore and validate/evaluate
 existing APIs the https://editor.swagger.io/[Swagger Editor] or our
-https://apis.zalando.net[API Portal] may be a good starting point.
+https://developper-np.apollo.total/[APOLLO API Portal] may be a good starting point.
 
 ////
 *APOLLO-Commented paragraph* GraphQL not in our scope
