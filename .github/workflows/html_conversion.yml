@@ -1,4 +1,4 @@
-name: html_generation
+name: html_conversion
 
 on:
   push:
