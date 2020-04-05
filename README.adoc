@@ -2,9 +2,9 @@
 
 https://travis-ci.org/zalando/restful-api-guidelines[image:https://travis-ci.org/zalando/restful-api-guidelines.svg?branch=master[Build Status]]
 Latest published version:
-http://zalando.github.io/restful-api-guidelines/[*HTML*],
-http://zalando.github.io/restful-api-guidelines/zalando-guidelines.pdf[*PDF*],
-http://zalando.github.io/restful-api-guidelines/zalando-guidelines.epub[*EPUB3*]
+https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*HTML*],
+https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*PDF*],
+https://fabref-34.github.io/smg-apollo-restful-api-guidelines/[*EPUB3*]
 
 == Purpose
 
