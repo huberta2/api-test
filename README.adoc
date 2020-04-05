@@ -2,6 +2,8 @@
 
 https://travis-ci.org/zalando/restful-api-guidelines[image:https://travis-ci.org/zalando/restful-api-guidelines.svg?branch=master[Build Status]]
 
+https://travis-ci.org/zalando/restful-api-guidelines[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg?branch=master[Build Status]]
+
 https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg]
 [html_generation](https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_generation/badge.svg)
 
