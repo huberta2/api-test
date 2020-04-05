@@ -11,7 +11,7 @@ There are many things to learn and to share with another. We have to keep improv
 review process, and tools to capture our evolving knowledge and experience.
 
 To formalize the learning process we decided to establish the API Design Review Process.
-Each new or refactored API MUST be reviewed through this process.
+Each new or refactored API SHOULD be reviewed through this process.
 
 == Feedback
 We have now done a couple of API design reviews. Please give us feedback how we can improve this process!
