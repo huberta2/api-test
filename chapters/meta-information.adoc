@@ -20,7 +20,7 @@ Following Open API extension properties *must* be provided in addition:
 
 
 [#116]
-== {MUST} use semantic versioning
+== {MUST} use semantic versioning for "company-internal" audience
 
 Open API allows to specify the API specification version in
 `#/info/version`. To share a common semantic of version information we
