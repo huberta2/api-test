@@ -19,11 +19,25 @@ We have now done a couple of API design reviews. Please give us feedback how we 
 [#10001]
 == {SHOULD} API Design Review Process
 
-===Who is responsible for scheduling the review?
-A representative of the project team that creates the service MUST contact the CTO office. 
+*Who is responsible for scheduling the review?*
+A representative of the project team that creates the service MUST contact the Architecture team. 
 In most cases the representative is the API designer/architect.
 
-===How to plan the review?
+*How to plan the review?*
 It is the responsibility of the team to plan their resources for the API review and to talk
-with the team leaders of CTO office to organize reviewers. 
+with the team leaders of Functional and Data Architecture to organize reviewers. 
 Together they decide on the appropriate time box for the review.
+
+*Tooling*
+Currently we are experimenting https://www.apicur.io/[APICURIO] for API review.
+
+*API description*
+It is necessary to provide a formal description of the API to review it. 
+The API designer has to provide an OPENAPI (or Swagger) description or an equivalent description. 
+Providing a running system or a mock to work with the API is highly appreciated.
+
+*Reviewing the API*
+It is up to the API designer and reviewer how to perform the review. It is a good idea to schedule a meeting
+and step through the API and talk with the reviewers about the functionality and intention.
+That's a good way to cut down review times because questions and missunderstandings can be solved immediately.
+Others prefer to review the API without a formal meeting.
