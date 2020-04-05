@@ -222,9 +222,14 @@ should wait by setting the {Retry-After} header.
 
 
 [#220]
+== {MAY} use most specific HTTP status codes
+////
+*APOLLO-Commented paragraph* MAY and not MUST in APOLLO context 
 == {MUST} use most specific HTTP status codes
-
 You must use the most specific HTTP status code when returning information 
+about your request processing status or error situations.
+////
+You may use the most specific HTTP status code when returning information 
 about your request processing status or error situations.
 
 
