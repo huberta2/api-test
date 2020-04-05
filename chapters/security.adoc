@@ -34,7 +34,7 @@ security:
 [#105]
 == {SHOULD} define and assign permissions (scopes)
 ////
-*APOLLO-Commented paragraph* SHOUD and not MUST 
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO Context 
 == {MUST} define and assign permissions (scopes)
 ////
 
