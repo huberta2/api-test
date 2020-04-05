@@ -35,7 +35,7 @@ code management system - best together with the implementing sources.
 
 You <<192, must / should publish>> the component <<219, external / internal>>
 API specification with the deployment of the implementing service, and, hence,
-make it discoverable for the group via our https://apis.zalando.net/[API Portal
+make it discoverable for the group via our https://developper-np.apollo.total/[API Portal
 [internal link]].
 
 *Hint:* A good way to explore *Open API 3.0/2.0* is to navigate through the
