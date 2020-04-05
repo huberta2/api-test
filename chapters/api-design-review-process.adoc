@@ -1,1 +1,29 @@
+[[api-design-review-process]]
+= API Design Review Process
 
+== Why
+We believe in APIs. We are just at the beginning of our journey to an API driven company. 
+There is no clear roadmap how to reach our goal. For sure it will be ways in which we stumble, 
+sometimes fail but hopefully succeed in the end.
+
+There will be pros and cons how to handle and apply the style guide to real projects. 
+There are many things to learn and to share with another. We have to keep improving the style guide,
+review process, and tools to capture our evolving knowledge and experience.
+
+To formalize the learning process we decided to establish the API Design Review Process.
+Each new or refactored API MUST be reviewed through this process.
+
+== Feedback
+We have now done a couple of API design reviews. Please give us feedback how we can improve this process!
+
+[#10001]
+== {SHOULD} API Design Review Process
+
+===Who is responsible for scheduling the review?
+A representative of the project team that creates the service MUST contact the CTO office. 
+In most cases the representative is the API designer/architect.
+
+===How to plan the review?
+It is the responsibility of the team to plan their resources for the API review and to talk
+with the team leaders of CTO office to organize reviewers. 
+Together they decide on the appropriate time box for the review.
