@@ -5,7 +5,7 @@
 [#106]
 == {SHOULD} not break backward compatibility
 ////
-*APOLLO-Commented paragraph* SHOULD and not MUST 
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} not break backward compatibility
 ////
 
@@ -63,7 +63,8 @@ services in a backward-compatible way:
   values and clients must be agnostic to new values.
 * Support redirection in case an URL has to change {301} (Moved Permanently).
 
-
+////
+*APOLLO-Commented paragraph* not in APOLLO context 
 [#108]
 == {MUST} prepare clients accept compatible API extensions
 
@@ -90,8 +91,10 @@ providers:
   {RFC-7231}#section-6[RFC 7231 Section 6]).
 * Follow the redirect when the server returns HTTP status code {301} (Moved
   Permanently).
+////
 
-
+////
+*APOLLO-Commented paragraph* not in APOLLO context 
 [#109]
 == {SHOULD} design APIs conservatively
 
@@ -134,7 +137,7 @@ In specific situations, where a (known) input field is not needed anymore, it
 either can stay in the API definition with "not used anymore" description or
 can be removed from the API definition as long as the server ignores this
 specific parameter.
-
+////
 
 [#110]
 == {MUST} always return JSON objects as top-level data structures
