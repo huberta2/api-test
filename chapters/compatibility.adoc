@@ -153,8 +153,11 @@ level data structures, since they don't support compatible, future extensions.
 
 
 [#111]
+== {SHOULD} treat Open API specification as open for extension by default
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} treat Open API specification as open for extension by default
-
+////
 The Open API 2.0 specification is not very specific on default extensibility
 of objects, and redefines JSON-Schema keywords related to extensibility, like
 `additionalProperties`. Following our overall compatibility guidelines, Open
@@ -215,6 +218,9 @@ delivery_methods:
 most tools.
 
 See <<240>> about enum value naming conventions.
+
+////
+*APOLLO-Commented paragraph* in APOLLO context we strongly recommand versionning
 
 [#113]
 == {SHOULD} avoid versioning
@@ -298,3 +304,14 @@ coordinating version upgrades — especially with hyperlinked service
 dependencies — when using URL versioning. To avoid this tighter coupling and
 complexer release management we do not use URI versioning, and go instead with
 media type versioning and content negotiation (see above).
+////
+
+////
+*APOLLO-Commented paragraph* in APOLLO context we strongly recommand URI versionning
+[#1002]
+== {MUST} use URI versioning
+
+With URI versioning a (major) version number is included in the path, e.g.
+`https://api.apollo.total/SampleAPI/v1/Accounts/76873`. 
+The consumer has to wait until the provider has been released
+and deployed.
