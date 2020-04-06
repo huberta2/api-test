@@ -12,8 +12,8 @@ You must follow the <<api-first, API First Principle>>, more specifically:
 
 * You should define APIs first, before coding its implementation, <<101, using
   Open API as specification language>>
-* You must design your APIs consistently with this guidelines; use our
-  https://zally.zalando.net/[API Linter Service [internal link]] for automated
+* You must design your APIs consistently with this guidelines; use for example
+  https://github.com/zalando/zally[API Linter Service] for automated
   rule checks. 
 * You should call for early review feedback from peers and client developers, 
   and apply <<1001, ApiReviewProcedure>> for all component external
