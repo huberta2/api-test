@@ -41,40 +41,33 @@
 
 {MUST} use standard date and time formats <<169,[169]>>
 
-{SHOULD} use standards for country, language and currency codes
+{SHOULD} use standards for country, language and currency codes <<170,[170]>>
 
-{MUST} define format for number and integer types
+{MUST} define format for number and integer types <<171,[171]>>
 | *API naming*    |
-{MUST} use lowercase separate words with hyphens for path segments
+{MUST} use lowercase separate words with hyphens for path segments <<129,[129]>>
 
-{MUST} use snake_case (never camelCase) for query parameters
+{MUST} use snake_case (never camelCase) for query parameters <<130,[130]>>
 
-{MUST} pluralize resource names
+{MUST} pluralize resource names <<134,[134]>>
 
-{SHOULD} not use /api as base path
+{SHOULD} not use /api as base path <<135,[135]>>
 
-{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes <<136,[136]>>
 | *Resources*    |
-{MUST} avoid trailing slashes
- avoid actions — think about resources
+{MUST} avoid actions — think about resources <<138,[138]>>
  
-{MUST} avoid trailing slashes
- keep URLs verb-free
+{MUST} keep URLs verb-free <<141,[141]>>
  
-{MUST} avoid trailing slashes
- identify resources and sub-resources via path segments
+{MUST} identify resources and sub-resources via path segments <<143,[143]>>
+| *HTTP requests*    | 
+{MUST} use HTTP methods correctly <<148,[148]>>
+| *HTTP status codes and errors*    | 
+{MUST} specify success and error responses <<151,[151]>>
  
-{MUST} avoid trailing slashes
- use HTTP methods correctly
+{MUST} use standard HTTP status codes <<150,[150]>>
  
-{MUST} avoid trailing slashes
- specify success and error responses
- 
-{MUST} avoid trailing slashes
- use standard HTTP status codes
- 
-{MUST} avoid trailing slashes
- not expose stack traces
+{MUST} not expose stack traces
 | *Hypermedia*    |
 
 * {MUST} use REST maturity level 2
