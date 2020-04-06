@@ -80,7 +80,7 @@
 | Hypermedia    |
 Rules :
 
-* {MUST} use REST maturity level 2
+* {MUST} use REST maturity level 2,
 * {MUST} use full, absolute URI
 |Common headers |
 {MUST} use Content-* headers correctly
