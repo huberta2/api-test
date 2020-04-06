@@ -5,11 +5,9 @@
 |=========================================================
 | *Topic* | *Key principles*
 | *General guidelines* | 
-<<100, {MUST} follow API first principle>>
+{MUST} follow API first principle <<100,[100]>>
 
-<<101, {MUST} provide API specification using Open API>>
-
-{SHOULD} <<102,provide API user>>
+{SHOULD} provide API user <<100,[100]>>
 
 {MUST} write APIs using U.S. English
 | *API Design Review Process* |
