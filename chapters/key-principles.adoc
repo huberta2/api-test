@@ -73,7 +73,7 @@
 
 {MUST} use full, absolute URI <<217,[217]>>
 |*Common headers* |
-{MUST} use Content-* headers correctly <<178,[178]>>
+{MUST} use `Content-*` headers correctly <<178,[178]>>
 |*API Operation* |
 {MUST} publish Open API specification <<192,[192]>>
 |=========================================================
