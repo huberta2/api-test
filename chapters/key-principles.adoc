@@ -7,7 +7,7 @@
 | *General guidelines* | 
 {MUST} follow API first principle <<100,[100]>>
 
-{SHOULD} provide API user <<100,[100]>>
+{SHOULD} provide API user <<101,[101]>>
 
 {MUST} write APIs using U.S. English
 | *API Design Review Process* |
