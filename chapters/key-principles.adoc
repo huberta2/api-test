@@ -5,11 +5,11 @@
 |=========================================================
 | *Topic* | *Key principles*
 | General guidelines | 
-{MUST} follow API first principle
+<<100, {MUST} follow API first principle>>
 
-{MUST} provide API specification using Open API
+<<101, {MUST} provide API specification using Open API>>
 
-{SHOULD} provide API user
+{SHOULD} <<102,provide API user>>
 
 {MUST} write APIs using U.S. English
 | API Design Review Process |
@@ -78,9 +78,9 @@
 {MUST} avoid trailing slashes
  not expose stack traces
 | Hypermedia    |
-Rules :
 
-* {MUST} use REST maturity level 2,
+* {MUST} use REST maturity level 2
+
 * {MUST} use full, absolute URI
 |Common headers |
 {MUST} use Content-* headers correctly
