@@ -10,6 +10,7 @@
 {MUST} provide API specification using Open API
 
 {SHOULD} provide API user
+
 {MUST} write APIs using U.S. English
 | API Design Review Process |
 {SHOULD} API Design Review Process
@@ -56,31 +57,33 @@
 
 {MUST} avoid trailing slashes
 | Resources    |
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  avoid actions — think about resources
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  keep URLs verb-free
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  identify resources and sub-resources via path segments
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  use HTTP methods correctly
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  specify success and error responses
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  use standard HTTP status codes
  
-•{MUST} avoid trailing slashes
+{MUST} avoid trailing slashes
  not expose stack traces
 | Hypermedia    |
+Rules :
+
 * {MUST} use REST maturity level 2
 * {MUST} use full, absolute URI
 |Common headers |
-* {MUST} use Content-* headers correctly
-* {MUST} publish Open API specification
+{MUST} use Content-* headers correctly
 
+{MUST} publish Open API specification
 |=========================================================
