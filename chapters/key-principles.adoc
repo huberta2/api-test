@@ -1,10 +1,62 @@
 [[key-principles]]
 = Key principles
 
-[cols="25%,75%,options="header"]
+[cols="35%,65%,options="header"]
 |=========================================================
 | *Topic* | *Key principles*
-| *General guidelines*   | {MUST} follow API first principle
-| *API Design Review Process* | {SOULD} Review
-| *Meta information*    | {MUST} contain API meta information
+| General guidelines | 
+{MUST} follow API first principle
+{MUST} provide API specification using Open API
+{SHOULD} provide API user
+{MUST} write APIs using U.S. English
+| API Design Review Process |
+{SHOULD} API Design Review Process
+| Meta information    |
+{MUST} contain API meta information
+{MUST} use semantic versioning
+| Compatibility    |
+{MUST} always return JSON objects as top-level data structures
+{MUST} not use URI versioning within OPENAPI Specification
+| JSON Guidelines    |
+{MUST} property names must be ASCII snake_case (and never camelCase): ^[a-z_][a-z_0-9]*$
+{MUST} declare enum values using UPPER_SNAKE_CASE format
+{SHOULD} pluralize array names
+{MUST} not use null for boolean properties
+{SHOULD} not use null for empty arrays
+{SHOULD} represent enumerations as strings
+{SHOULD} define dates properties compliant with RFC 3339
+{SHOULD} define time durations and intervals properties conform to ISO 8601
+| Data formats    |
+{MUST} use JSON to encode structured data
+{MUST} use standard date and time formats
+{SHOULD} use standards for country, language and currency codes
+{MUST} define format for number and integer types
+| API naming    |
+{MUST} use lowercase separate words with hyphens for path segments
+{MUST} use snake_case (never camelCase) for query parameters
+{MUST} pluralize resource names
+{SHOULD} not use /api as base path
+{MUST} avoid trailing slashes
+| Resources    |
+•{MUST} avoid trailing slashes
+ avoid actions — think about resources
+•{MUST} avoid trailing slashes
+ keep URLs verb-free
+•{MUST} avoid trailing slashes
+ identify resources and sub-resources via path segments
+•{MUST} avoid trailing slashes
+ use HTTP methods correctly
+•{MUST} avoid trailing slashes
+ specify success and error responses
+•{MUST} avoid trailing slashes
+ use standard HTTP status codes
+•{MUST} avoid trailing slashes
+ not expose stack traces
+| Hypermedia    |
+•{MUST} use REST maturity level 2
+•{MUST} use full, absolute URI
+|Common headers |
+•{MUST} use Content-* headers correctly
+•{MUST} publish Open API specification
+
 |=========================================================
