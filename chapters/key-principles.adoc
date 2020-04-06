@@ -21,7 +21,7 @@
 
 {MUST} not use URI versioning within OPENAPI Specification
 | *JSON Guidelines*    |
-{MUST} property names must be ASCII snake_case (and never camelCase): ^[a-z_][a-z_0-9]*$ <<118,[118]>>
+{MUST} property names must be ASCII snake_case (and never camelCase): `^[a-z_][a-z_0-9]*$` <<118,[118]>>
 
 {MUST} declare enum values using UPPER_SNAKE_CASE format <<240,[240]>>
 
