@@ -1,7 +1,7 @@
 [[key-principles]]
 = Key principles
 
-[cols="20%,80%,frame="topbot",options="header"]
+[cols="22%,78%,frame="topbot",options="header"]
 |=========================================================
 | *Topic* | *Key principles*
 | *General guidelines* | 
