@@ -6,7 +6,7 @@
 == {MUST} publish Open API specification
 
 All service applications must publish Open API specifications of their external
-APIs. While this is optional for internal APIs, i.e. APIs marked with the
+APIs. While *this is optional for internal APIs*, i.e. APIs marked with the
 *component-internal* <<219, API audience>> group, we still recommend to do so
 to profit from the API management infrastructure.
 
