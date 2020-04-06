@@ -77,12 +77,10 @@
 •{MUST} avoid trailing slashes
  not expose stack traces
 | Hypermedia    |
-•{MUST} use REST maturity level 2
-
-•{MUST} use full, absolute URI
+* {MUST} use REST maturity level 2
+* {MUST} use full, absolute URI
 |Common headers |
-•{MUST} use Content-* headers correctly
-
-•{MUST} publish Open API specification
+* {MUST} use Content-* headers correctly
+* {MUST} publish Open API specification
 
 |=========================================================
