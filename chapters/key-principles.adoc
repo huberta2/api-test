@@ -1,4 +1,10 @@
 [[key-principles]]
 = Key principles
 
-
+[cols="25%,75%,options="header"]
+|=========================================================
+| *Topic* | *Key principles*
+| *General guidelines*   | {MUST} follow API first principle
+| *API Design Review Process* | {SOULD} Review
+| *Meta information*    | {MUST} contain API meta information
+|=========================================================
