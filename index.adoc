@@ -211,6 +211,8 @@ Other formats: link:apollo-guidelines.pdf[PDF], link:apollo-guidelines.epub[EPUB
 HTML Conversion Status : 
 https://github.com/fabref-34/smg-apollo-restful-api-guidelines/actions[image:https://github.com/fabref-34/smg-apollo-restful-api-guidelines/workflows/html_conversion/badge.svg?branch=master[Build Status]]
 
+include::chapters/key-principles.adoc[]
+
 toc::[]
 
 :sectnums:
