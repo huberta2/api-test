@@ -119,9 +119,6 @@ paths:
 Hint: you need not explicitly define the "Authorization" header; it is a
 standard header so to say implicitly defined via the security section.
 
-////
-*APOLLO-Commented paragraph* Not implemented in APOLLO
-
 [#225]
 == {MUST} follow naming convention for permissions (scopes)
 
@@ -144,7 +141,6 @@ permission names in APIs must conform to the following naming pattern:
 -----
 
 This pattern is compatible with the previous definition.
-////
 
 ////
 //Prepared change for functional permission names:
