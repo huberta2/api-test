@@ -311,16 +311,11 @@ media type versioning and content negotiation (see above).
 ////
 [#1002]
 == {MUST} use URI versioning at deployment level *ONLY*
-With URI versioning a (major) version number is included in the path, e.g.
-`GET /v1/orders`. 
-The consumer has to wait until the provider has been released
-and deployed.
+API versioning {SHOULD} be done using the URI versioning mechanism (e.g. /api/v1/wells).
+API versions {SHOULD} be written in the form vN with N being an integer (e.g. /api/v3/wells).
 Two versions should be supported at most at the same time (Native apps need a longer cycle).
 
 [#1003]
 == {MUST} not use URI versioning in OPENAPI specification
-With URI versioning a (major) version number is included in the path, e.g.
-`GET /v1/orders`. 
-The consumer has to wait until the provider has been released
-and deployed.
-Two versions should be supported at most at the same time (Native apps need a longer cycle).
+In most cases, all resources provided by a service are part of the public API, 
+and therefore should be made available under the root "/" base path.
