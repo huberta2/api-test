@@ -311,8 +311,8 @@ media type versioning and content negotiation (see above).
 ////
 [#1002]
 == {MUST} use URI versioning at deployment level *ONLY*
-1.API versioning {SHOULD} be done using the URI versioning mechanism (e.g. /api/v1/wells).
-2.API versions {SHOULD} be written in the form vN with N being an integer (e.g. /api/v3/wells).
+* API versioning {SHOULD} be done using the URI versioning mechanism (e.g. /api/v1/wells).
+* API versions {SHOULD} be written in the form vN with N being an integer (e.g. /api/v3/wells).
 
 Two versions should be supported at most at the same time (Native apps need a longer cycle).
 
