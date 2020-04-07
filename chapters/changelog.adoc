@@ -2,7 +2,7 @@
 [appendix]
 = Changelog
 
-This change log only contains major changes compared to Zalando Guidelines.
+This change log only contains major changes compared with Zalando Guidelines [Last updated 2020-03-19 06:48:12 UTC].
 
 Non-major changes are editorial-only changes or minor changes of existing guidelines, e.g. adding new error code.
 Major changes are changes that come with additional obligations, or even change an existing guideline obligation.
