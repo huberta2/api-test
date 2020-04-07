@@ -51,7 +51,7 @@ of your functional names (and available domains) and to support hostname DNS
 resolution.
 ////
 
-Please see the following rules for detailed functional naming patterns:
+Please see the following rule for detailed functional naming patterns:
 
 * <<224>>
 // * <<225>>
