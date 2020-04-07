@@ -250,6 +250,8 @@ ResponsePage:
 The response page may contain additional metadata about the collection or the
 current page.
 
+////
+*APOLLO-Commented paragraph* not in APOLLO context 
 
 [[address-fields]]
 === Address fields
@@ -337,6 +339,7 @@ address:
     - zip
     - country_code
 ----
+////
 
 Grouping and cardinality of fields in specific data types may vary based
 on the specific use case (e.g. combining addressee and address fields
