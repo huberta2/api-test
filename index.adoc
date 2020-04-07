@@ -201,7 +201,8 @@
 :RFC-cacheable: pass:[<a href="https://tools.ietf.org/html/rfc7231#section-4.2.3">cacheable</a>]
 
 
-= SISMAGE & Apollo RESTful API and Event Scheme Guidelines
+//*APOLLO-Commented line* Event Scheme Out of Apollo Scope  = SISMAGE & Apollo RESTful API and Event Scheme Guidelines
+= SISMAGE & Apollo RESTful API Guidelines
 === Adapted from https://github.com/zalando/restful-api-guidelines
 
 image::assets/logo_CIG_APOLLO.png[API Guild Logo]
@@ -238,7 +239,7 @@ include::chapters/hyper-media.adoc[]
 include::chapters/common-headers.adoc[]
 //*APOLLO-Commented line* Out of Apollo Scope include::chapters/proprietary-headers.adoc[]
 include::chapters/api-operation.adoc[]
-include::chapters/events.adoc[]
+//*APOLLO-Commented line* Out of Apollo Scope include::chapters/events.adoc[]
 include::chapters/references.adoc[]
 include::chapters/tooling.adoc[]
 include::chapters/best-practices.adoc[]
