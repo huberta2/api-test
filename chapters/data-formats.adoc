@@ -124,7 +124,7 @@ Use the following standard formats for country, language and currency
 codes:
 
 * {ISO-3166-1-a2}[ISO 3166-1-alpha2 country codes]
-** (It is "GB", not "UK", even though "UK" has seen some use at Zalando)
+** It is "GB", not "UK"
 * {ISO-639-1}[ISO 639-1 language code]
 ** {BCP47}[BCP 47] (based on {ISO-639-1}[ISO 639-1])
    for language variants
