@@ -174,7 +174,7 @@ Strings are a reasonable target for values that are by design enumerations.
 == {MAY} name date/time properties with `_at` suffix
 ////
 *APOLLO-Commented paragraph* MAY and not SHOULD in APOLLO context 
-== {MUST} use same semantics for `null` and absent properties
+== {SHOULD} name date/time properties with `_at` suffix
 ////
 
 Dates and date-time properties should end with `_at` to distinguish them from
