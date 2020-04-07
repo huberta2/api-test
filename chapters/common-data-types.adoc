@@ -96,8 +96,11 @@ numbers as float / doubles.
 ////
 
 [#174]
+== {SHOULD} use common field names and semantics
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use common field names and semantics
-
+////
 There exist a variety of field types that are required in multiple places. To
 achieve consistency across all API implementations, you must use common field
 names and semantics whenever applicable.
