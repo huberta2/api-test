@@ -27,7 +27,9 @@ establish "consistent API look and feel" quality.
 | *Compatibility*    |
 {MUST} always return JSON objects as top-level data structures <<110,[110]>>
 
-{MUST} not use URI versioning within OPENAPI Specification
+{MUST} use URI versioning at deployment level *ONLY* <<1002,[1002]>>
+
+{MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
 | *JSON Guidelines*    |
 {MUST} property names must be ASCII snake_case (and never camelCase): `^[a-z_][a-z_0-9]*$` <<118,[118]>>
 
