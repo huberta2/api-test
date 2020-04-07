@@ -325,6 +325,6 @@ media type versioning and content negotiation (see above).
 Two versions should be supported at most at the same time (Native apps need a longer cycle).
 
 [#1003]
-== {MUST} not use URI versioning in OpenAPI Specification
+== {MUST} not use URI versioning within OpenAPI Specification
 In most cases, all resources provided by a service are part of the public API, 
 and therefore should be made available under the root "/" base path.
