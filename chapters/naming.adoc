@@ -69,7 +69,7 @@ depending on the <<219, audience>> as follows (see <<223>> for details and
 -----
 <hostname>             ::= <functional-hostname> | <application-hostname>
 
-<functional-hostname>  ::= <functional-name>.zalandoapis.com
+<functional-hostname>  ::= <functional-name>.apolloapis.com
 -----
 
 The following application specific legacy convention is *only* allowed for
