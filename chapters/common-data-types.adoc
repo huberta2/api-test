@@ -3,7 +3,7 @@
 
 Definitions of data objects that are good candidates for wider usage:
 
-[#1003]
+[#1004]
 == {SHOULD} use common objects  
 APIs are encouraged to include a reference to a global schema for main subsurface objects such as coordinates...
 
