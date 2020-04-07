@@ -326,7 +326,7 @@ Idempotency Key>> pattern.
 
 
 [#231]
-== {Should} use secondary key for idempotent `POST` design
+== {SHOULD} use secondary key for idempotent `POST` design
 
 The most important pattern to design {POST} <<idempotent>> for creation is to
 introduce a resource specific *secondary key* provided in the request body, to
