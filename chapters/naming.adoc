@@ -55,7 +55,7 @@ Please see the following rules for detailed functional naming patterns:
 
 * <<224>>
 // * <<225>>
-* <<213>>
+// * <<213>>
 
 
 [#224]
