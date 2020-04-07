@@ -350,7 +350,11 @@ number of requests made within a given window for each named entity.
 
 
 [#176]
+== {SHOULD} use problem JSON
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use problem JSON
+////
 
 {RFC-7807}[RFC 7807] defines a Problem JSON object and  the media type
 `application/problem+json`. Operations should return it (together with a
