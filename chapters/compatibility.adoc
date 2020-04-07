@@ -19,10 +19,18 @@ There are two techniques to change APIs without breaking them:
 * follow rules for compatible extensions
 * introduce new API versions and still support older versions
 
+////
+*APOLLO-Commented paragraph* Reword this paragraph aligned with our strategy
 We strongly encourage using compatible API extensions and discourage versioning
 (see <<113>> and <<114>> below). The following guidelines for service providers
 (<<107>>) and consumers (<<108>>) enable us (having Postel’s Law in mind) to
 make compatible changes without versioning.
+////
+
+We strongly encourage using compatible API extensions and discourage URI versioning
+within OpenAPI Specification to keep URI versioning at deployment level (see <<1002>>
+and <<1003>> below). The following guidelines for service providers (<<107>>) enable us
+(having Postel’s Law in mind) to make compatible changes without versioning.
 
 *Note:* There is a difference between incompatible and breaking changes.
 Incompatible changes are changes that are not covered by the compatibility
