@@ -73,7 +73,11 @@ which business object it represents. Along these lines, "items" is too general.
 
 
 [#228]
+== {SHOULD} use URL-friendly resource identifiers: [a-zA-Z0-9:._\-/]*
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} use URL-friendly resource identifiers: [a-zA-Z0-9:._\-/]*
+////
 
 To simplify encoding of resource IDs in URLs, their representation must only
 consist of ASCII strings using letters, numbers, underscore, minus, colon,
