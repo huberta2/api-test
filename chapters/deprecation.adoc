@@ -29,8 +29,8 @@ API feature.
 [#186]
 == {MUST} collect external partner consent on deprecation time span
 
-If the API is consumed by any external partner such as APIs with
-"company-internal" audience, the API owner must define a reasonable
+If the API is consumed by any external partner (e.g. APIs with
+"company-internal" audience) the API owner must define a reasonable
 time span that the API will be maintained after the producer has
 announced deprecation. All external partners must state consent with this
 after-deprecation-life-span, i.e. the minimum time span between official
