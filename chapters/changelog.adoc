@@ -13,5 +13,9 @@ To see a list of all changes, please have a look at the https://github.com/fabre
 [[rule-changes]]
 == Rule Changes
 
+* `2020-04-07:` Removed chapters "Proprietary Headers" and "Events"
+* `2020-04-07:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
+* `2020-04-07:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
+* `2020-04-06:` Added chapter "Key principles"
 * `2020-04-05:` Introduced the changelog. From now on all rule changes on API guidelines will be recorded here.
 * `2019-01-24:` From Zalando Guidelines - https://opensource.zalando.com/restful-api-guidelines/#appendix-changelog
