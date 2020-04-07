@@ -43,8 +43,12 @@ permission must be assigned to each endpoint. Permissions are defined as shown
 in the <<104, previous section>>.
 
 The naming schema for permissions corresponds to the naming schema for <<224,
-hostnames>> and <<213, event type names>>. Please refer to <<225>> for
+hostnames>> and <<213, event type names>>. 
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO Context 
+Please refer to <<225>> for
 designing permission names.
+////
 
 APIs should stick to component specific permissions without resource extension
 to avoid governance complexity of too many fine grained permissions. For the
@@ -119,6 +123,8 @@ paths:
 Hint: you need not explicitly define the "Authorization" header; it is a
 standard header so to say implicitly defined via the security section.
 
+////
+*APOLLO-Commented paragraph* not in APOLLO Context 
 [#225]
 == {MUST} follow naming convention for permissions (scopes)
 
@@ -141,7 +147,7 @@ permission names in APIs must conform to the following naming pattern:
 -----
 
 This pattern is compatible with the previous definition.
-
+////
 ////
 //Prepared change for functional permission names:
 Permission names in APIs must, respectively should conform to the functional
