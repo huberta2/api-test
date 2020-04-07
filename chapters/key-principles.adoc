@@ -1,6 +1,14 @@
 [[key-principles]]
 = Key principles
 
+We are just at the beginning of our journey to an API driven company.
+We highlighted *Key principles* as a starting point for on-boarded teams, 
+but we *strongly encourage* our teams to *carefully read the entire document*. 
+
+The purpose of our "RESTful API guidelines" is to define standards to successfully 
+establish "consistent API look and feel" quality.
+Ideally, all SISMAGE & Apollo APIs will look like the same author created them.
+
 [cols="22%,78%,frame="topbot",options="header"]
 |=========================================================
 | *Topic* | *Key principles*
