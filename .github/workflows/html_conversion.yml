@@ -24,3 +24,18 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: ./
+    - name : Checkout gh-pages
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+        ref: 'gh-pages'
+        persist-credentials: false
+    - run: | 
+        git remote add publication https://github.com/fabref-34/sismage-apollo-api-guidelines.git
+        git config --global user.email "fabref.34@gmail.com"
+        git config --global user.name "fabref-34"
+        git checkout gh-pages
+        git push -u https://$REPO_KEY:x-oauth-basic@github.com/fabref-34/sismage-apollo-api-guidelines.git -f
+      env:
+        REPO_KEY: ${{ secrets.PUSH_PAT }}
+        USERNAME: github-actions
