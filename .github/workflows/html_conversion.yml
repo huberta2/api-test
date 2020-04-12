@@ -32,8 +32,8 @@ jobs:
         persist-credentials: false
     - run: | 
         git remote add publication https://github.com/fabref-34/sismage-apollo-api-guidelines.git
-        git config --global user.email "fabref.34@gmail.com"
-        git config --global user.name "fabref-34"
+        git config --global user.email "florian.fabre@total.com"
+        git config --global user.name "f-fabre"
         git checkout gh-pages
         git push -u https://$REPO_KEY:x-oauth-basic@github.com/fabref-34/sismage-apollo-api-guidelines.git -f
       env:
