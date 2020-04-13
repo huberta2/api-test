@@ -17,10 +17,23 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 * `2020-04-07:` Removed chapters "Proprietary Headers" and "Events"
 * `2020-04-07:` Added chapter "Key principles"
 
-* `2020-03-27:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
-* `2020-03-27:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
+* `2020-04-08:` Changed rule {MUST} to {SHOULD} use same semantics for null and absent properties <<123,[123]>>
+* `2020-04-08:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
+* `2020-04-08:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
+* `2020-04-08:` Removed rule {MUST} not use URI versioning <<115,[115]>>
+* `2020-04-08:` Removed rule {MUST} design APIs conservatively <<109,[109]>>
+* `2020-04-08:` Removed rule {MUST} prepare clients accept compatible API extensions <<108,[108]>>
+* `2020-04-08:` Removed rule {MUST} follow naming convention for permissions (scopes) <<225,[225]>>
 
+* `2020-04-06:` Changed rule {MUST} to {SHOULD} use code 429 with headers for rate limits <<153,[153]>>
+* `2020-04-06:` Changed rule {MUST} to {SHOULD} use code 207 for batch or bulk requests <<152,[152]>>
 
+* `2020-04-03:` Changed rule {MUST} to {SHOULD} support pagination <<159,[159]>>
+* `2020-04-03:` Changed rule {MUST} to {SHOULD} not expose stack traces <<177,[177]>>
+* `2020-04-03:` Changed rule {MUST} to {MAY} use most specific HTTP status codes <<220,[220]>>
+* `2020-04-03:` Changed rule {MUST} to {SHOULD} document implicit filtering <<226,[226]>>
+* `2020-04-03:` Changed rule {MUST} to {SHOULD} fulfill common method properties <<149,[149]>>
+* `2020-04-03:` Changed rule {MUST} to {SHOULD} use domain-specific resource names <<142,[142]>>
 * `2020-04-03:` Changed rule {MUST}/{SHOULD} to {SHOULD} use functional naming schema <<223,[223]>>
 
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} stick to conventional query parameters <<137,[137]>>
@@ -32,9 +45,10 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} treat Open API specification as open for extension by default <<111,[111]>>
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} not break backward compatibility <<106,[106]>>
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} define and assign permissions (scopes) <<105,[105]>>
+
 * `2020-03-27:` Adapted rule {MUST} provide API identifiers *for "company-internal" audience* <<215,[215]>>
-* `2020-03-27:` Removed rule {MUST} not use URI versioning <<115,[115]>>
 * `2020-03-27:` Removed rule {MUST} use media type versioning <<114,[114]>>
 * `2020-03-27:` Removed rule {SHOULD} avoid versioning <<113,[113]>>
 * `2020-03-27:` Introduced the changelog. From now on all rule changes on API guidelines will be recorded here.
+
 * `2019-01-24:` From Zalando Guidelines - https://opensource.zalando.com/restful-api-guidelines/#appendix-changelog
