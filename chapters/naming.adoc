@@ -72,6 +72,8 @@ depending on the <<219, audience>> as follows (see <<223>> for details and
 <functional-hostname>  ::= <functional-name>.apolloapis.com
 -----
 
+////
+*APOLLO-Commented paragraph* not valid in APOLLO context 
 The following application specific legacy convention is *only* allowed for
 hostnames of <<219, component-internal>> APIs:
 
@@ -81,7 +83,7 @@ hostnames of <<219, component-internal>> APIs:
 <application-id>       ::= [a-z][a-z0-9-]*  -- application identifier
 <organization-id>      ::= [a-z][a-z0-9-]*  -- organization unit identifier, e.g. team identifier
 -----
-
+////
 
 [#129]
 == {MUST} use lowercase separate words with hyphens for path segments
