@@ -269,7 +269,11 @@ size.
 
 *Note:* The {Idempotency-Key} header unlike other headers in this section
 is not standardized in an RFC. Our only reference are the usage in the
-https://stripe.com/docs/api/idempotent_requests[Stripe API]. However, as it
+https://stripe.com/docs/api/idempotent_requests[Stripe API]. 
+
+////*Apollo commented paragraph* Not in Apollo Context
+However, as it
 fit not into our section about <<proprietary-headers>>, and we did not want
 to change the header name and semantic, we decided to treat it as any other
 common header.
+////
