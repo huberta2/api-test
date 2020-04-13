@@ -63,8 +63,8 @@ However, we do not forbid HATEOAS; you could use it, if you checked its
 limitations and still see clear value for your usage scenario that justifies
 its additional complexity. If you use HATEOAS please share experience and
 present your findings in the
-https://confluence.zalando.net/display/GUL/API+Guild[API Guild [internal
-link]].
+https://carbon-confluence.valiantys.net/display/PLATSUB/REST+API+Development+Guidelines[API Team (internal
+link)].
 
 
 [#217]
@@ -158,7 +158,7 @@ cognitive overhead. It consists of a simple URI value in combination with the
 corresponding {link-relations}[link relations], e.g. {next}, {prev}, {first},
 {last}, or {self}.
 
-See <<simple-hypertext-control-fields>> and <<161>> for examples and more
+See <<link-relation-fields, simple-hypertext-control-fields>> and <<161>> for examples and more
 information.
 
 

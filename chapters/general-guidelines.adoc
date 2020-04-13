@@ -41,7 +41,8 @@ make it discoverable for the group via our https://developper-np.apollo.total/[A
 https://openapi-map.apihandyman.io/[Open API specification mind map].
 To explore and validate/evaluate
 existing APIs the https://editor.swagger.io/[Swagger Editor] or our
-https://developper-np.apollo.total/[Apollo API Portal] may be a good starting point.
+https://developper-np.apollo.total/[Apollo API Portal [internal link]] 
+may be a good starting point.
 
 ////
 *APOLLO-Commented paragraph* No swagger plugin for APOLLO 
