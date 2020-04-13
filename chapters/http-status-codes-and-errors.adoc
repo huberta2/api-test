@@ -31,7 +31,7 @@ responses:
     content:
       "application/problem+json":
         schema:
-          $ref: 'https://opensource.zalando.com/problem/schema.yaml#/Problem'
+          $ref: 'https://raw.githubusercontent.com/fabref-34/sismage-apollo-api-guidelines/gh-pages/models/problem.yaml'
 ----
 
 API designers should also think about a **troubleshooting board** as part of
