@@ -46,8 +46,7 @@ following two options:
 using header parameters. From a conceptual point of view, the semantic of an
 operation should always be expressed by the resource names, as well as the
 involved path and query parameters. In other words by everything that goes into
-the URL. Request headers are reserved for general context information (see
-<<183>>). In addition, size limits on query parameters and headers are not
+the URL. In addition, size limits on query parameters and headers are not
 reliable and depend on clients, gateways, server, and actual settings. Thus,
 switching to headers does not solve the original problem.
 
