@@ -384,6 +384,25 @@ The Open API schema definition of the Problem JSON object can be found
 https://zalando.github.io/problem/schema.yaml[on Zalando github] and is
 reported below :
 
+[source,yaml]
+----
+include::../models/problem-apollo.yaml[]
+----
+
+You can
+reference it by using:
+
+[source,yaml]
+----
+responses:
+  503:
+    description: Service Unavailable
+    content:
+      "application/problem+json":
+        schema:
+          $ref: 'https://fabref-34.github.io/sismage-apollo-api-guidelines/problem_apollo.yaml#/Problem'
+----
+
 You may define custom problem types as extensions of the Problem JSON object
 if your API needs to return specific, additional and detailed error information.
 
