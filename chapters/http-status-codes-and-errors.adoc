@@ -400,7 +400,7 @@ responses:
     content:
       "application/problem+json":
         schema:
-          $ref: 'https://fabref-34.github.io/sismage-apollo-api-guidelines/problem_apollo.yaml#/Problem'
+          $ref: 'https://fabref-34.github.io/sismage-apollo-api-guidelines/problem-apollo.yaml#/Problem'
 ----
 
 You may define custom problem types as extensions of the Problem JSON object
