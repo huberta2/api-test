@@ -20,7 +20,14 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 * `2020-03-27:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
 * `2020-03-27:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
 
-* `2020-04-01:` Changed rule {SHOULD} to {MAY} add Deprecation and Sunset header to responses <<189,[189]>>
+
+* `2020-04-03:` Changed rule {MUST}/{SHOULD} to {SHOULD} use functional naming schema <<223,[223]>>
+
+* `2020-04-01:` Changed rule {MUST} to {SHOULD} stick to conventional query parameters <<137,[137]>>
+* `2020-04-01:` Added rule {SHOULD} use common objects <<1004,[1004]>>
+* `2020-04-01:` Removed rule {MUST} use the common money object <<173,[173]>>
+* `2020-04-01:` Removed rule {SHOULD} add monitoring for `Deprecation` and `Sunset` header <<190,[190]>>
+* `2020-04-01:` Changed rule {SHOULD} to {MAY} add `Deprecation` and `Sunset` header to responses <<189,[189]>>
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} obtain approval of clients before API shut down <<185,[185]>>
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} treat Open API specification as open for extension by default <<111,[111]>>
 * `2020-04-01:` Changed rule {MUST} to {SHOULD} not break backward compatibility <<106,[106]>>
