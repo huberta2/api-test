@@ -12,18 +12,24 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 
 [[rule-changes]]
 == Rule Changes
-* `2020-04-14:` Adapted rules JSON Problem to dereference Zalando schema
 
-* `2020-04-07:` Removed chapters "Proprietary Headers" and "Events"
-* `2020-04-07:` Added chapter "Key principles"
+* `2020-04-14:` Adapted rule {MAY} use problem JSON <<176,[176]>> to dereference Zalando problem schema
+* `2020-04-14:` Changed rule {MUST} to {MAY} use problem JSON <<176,[176]>>
 
-* `2020-04-08:` Changed rule {MUST} to {SHOULD} use same semantics for null and absent properties <<123,[123]>>
+* `2020-04-08:` Changed rule {MUST} to {SHOULD} document cachable GET, HEAD, and POST endpoints <<227,[227]>>
+* `2020-04-08:` Changed rule {MUST} to {SHOULD} use URL-friendly resource identifiers: [a-zA-Z0-9:._\-/]* <<228,[228]>>
+* `2020-04-08:` Changed rule {MUST} to {SHOULD} use common field names and semantics <<174,[174]>>
+* `2020-04-08:` Changed rule {MUST} to {MAY} name date/time properties with _at suffix <<235,[235]>>
+* `2020-04-08:` Changed rule {MUST} to {SHOULD} use same semantics for `null` and absent properties <<123,[123]>>
 * `2020-04-08:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
 * `2020-04-08:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
 * `2020-04-08:` Removed rule {MUST} not use URI versioning <<115,[115]>>
 * `2020-04-08:` Removed rule {MUST} design APIs conservatively <<109,[109]>>
 * `2020-04-08:` Removed rule {MUST} prepare clients accept compatible API extensions <<108,[108]>>
 * `2020-04-08:` Removed rule {MUST} follow naming convention for permissions (scopes) <<225,[225]>>
+
+* `2020-04-07:` Removed chapters "Proprietary Headers" and "Events"
+* `2020-04-07:` Added chapter "Key principles"
 
 * `2020-04-06:` Changed rule {MUST} to {SHOULD} use code 429 with headers for rate limits <<153,[153]>>
 * `2020-04-06:` Changed rule {MUST} to {SHOULD} use code 207 for batch or bulk requests <<152,[152]>>
