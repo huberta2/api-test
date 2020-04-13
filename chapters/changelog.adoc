@@ -12,10 +12,22 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 
 [[rule-changes]]
 == Rule Changes
+* `2020-04-14:` Adapted rules JSON Problem to dereference Zalando schema
 
 * `2020-04-07:` Removed chapters "Proprietary Headers" and "Events"
-* `2020-04-07:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
-* `2020-04-07:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
-* `2020-04-06:` Added chapter "Key principles"
-* `2020-04-05:` Introduced the changelog. From now on all rule changes on API guidelines will be recorded here.
+* `2020-04-07:` Added chapter "Key principles"
+
+* `2020-03-27:` Added rule {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
+* `2020-03-27:` Added rule  {MUST} use URI versioning at deployment level ONLY <<1002,[1002]>>
+
+* `2020-04-01:` Changed rule {SHOULD} to {MAY} add Deprecation and Sunset header to responses <<189,[189]>>
+* `2020-04-01:` Changed rule {MUST} to {SHOULD} obtain approval of clients before API shut down <<185,[185]>>
+* `2020-04-01:` Changed rule {MUST} to {SHOULD} treat Open API specification as open for extension by default <<111,[111]>>
+* `2020-04-01:` Changed rule {MUST} to {SHOULD} not break backward compatibility <<106,[106]>>
+* `2020-04-01:` Changed rule {MUST} to {SHOULD} define and assign permissions (scopes) <<105,[105]>>
+* `2020-03-27:` Adapted rule {MUST} provide API identifiers *for "company-internal" audience* <<215,[215]>>
+* `2020-03-27:` Removed rule {MUST} not use URI versioning <<115,[115]>>
+* `2020-03-27:` Removed rule {MUST} use media type versioning <<114,[114]>>
+* `2020-03-27:` Removed rule {SHOULD} avoid versioning <<113,[113]>>
+* `2020-03-27:` Introduced the changelog. From now on all rule changes on API guidelines will be recorded here.
 * `2019-01-24:` From Zalando Guidelines - https://opensource.zalando.com/restful-api-guidelines/#appendix-changelog
