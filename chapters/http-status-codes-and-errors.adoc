@@ -386,7 +386,7 @@ reported below :
 
 [source,yaml]
 ----
-include::../models/problem-apollo.yaml[]
+include::../models/problem.yaml[]
 ----
 
 You can
@@ -400,7 +400,7 @@ responses:
     content:
       "application/problem+json":
         schema:
-          $ref: 'https://fabref-34.github.io/sismage-apollo-api-guidelines/problem-apollo.yaml#/Problem'
+          $ref: 'https://fabref-34.github.io/sismage-apollo-api-guidelines/problem.yaml#/Problem'
 ----
 
 You may define custom problem types as extensions of the Problem JSON object
