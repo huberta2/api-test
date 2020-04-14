@@ -130,7 +130,7 @@ Original-Message-ID
 
 See also: {RFC-7230}#page-22[HTTP Headers are case-insensitive (RFC 7230)].
 
-See <<common-headers>> sections for more guidance on HTTP headers.
+See <<common-headers>> section for more guidance on HTTP headers.
 
 
 [#134]
