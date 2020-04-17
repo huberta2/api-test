@@ -10,15 +10,16 @@ an idiomatic form across teams and services.
 The first some of the following guidelines are about property names, the later
 ones about values.
 
-
-[#118]
+////
+*APOLLO-Commented paragraph* SHOULD and not MUST in APOLLO context 
 == {MUST} property names must be ASCII snake_case (and never camelCase): `^[a-z_][a-z_0-9]*$`
+////
+[#118]
+== {MUST} property names must be ASCII camelCase:
 
 Property names are restricted to ASCII strings. The first
-character must be a letter, or an underscore, and subsequent
-characters can be a letter, an underscore, or a number.
-
-(It is recommended to use `_` at the start of property names only for keywords like `_links`.)
+character must be a letter, and subsequent
+characters can be a letter, an hyphens, or a number.
 
 Rationale: No established industry standard exists, but many popular Internet
 companies prefer snake_case: e.g. GitHub, Stack Exchange, Twitter.
