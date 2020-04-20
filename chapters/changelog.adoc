@@ -13,6 +13,9 @@ To see a list of all changes, please have a look at the https://github.com/f-fab
 [[rule-changes]]
 == Rule Changes
 
+* `2020-04-20:` Changed rule {MUST} use camelCase for query parameters <<130,[130]>>
+* `2020-04-20:` Changed rule {MUST} property names must be ASCII camelCase <<118,[118]>>
+
 * `2020-04-14:` Adapted rule {MAY} use problem JSON <<176,[176]>> to dereference Zalando problem schema
 * `2020-04-14:` Changed rule {MUST} to {MAY} use problem JSON <<176,[176]>>
 
