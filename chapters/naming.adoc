@@ -101,13 +101,17 @@ parameter.
 
 
 [#130]
+////
+*APOLLO-Commented paragraph* not valid in APOLLO context 
 == {MUST} use snake_case (never camelCase) for query parameters
+////
+== {MUST} use camelCase for query parameters
 
 Examples:
 
 [source]
 ----
-customer_number, order_id, billing_address
+customerNumber, orderId, billingAddress
 ----
 
 
