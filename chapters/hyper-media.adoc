@@ -114,6 +114,7 @@ resource. Implementations should use names from the {link-relations}[IANA
 Link Relation Registry] whenever appropriate. 
 
 ////
+*APOLLO-Commented paragraph* not in APOLLO context 
 As IANA link relation
 names use hyphen-case notation, while this guide enforces snake_case
 notation for attribute names, hyphens in IANA names have to be replaced
