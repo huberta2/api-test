@@ -31,7 +31,7 @@ establish "consistent API look and feel" quality.
 
 {MUST} not use URI versioning within OpenAPI Specification <<1003,[1003]>>
 | *JSON Guidelines*    |
-{MUST} property names must be ASCII snake_case (and never camelCase): `^[a-z_][a-z_0-9]*$` <<118,[118]>>
+{MUST} property names must be ASCII camelCase <<118,[118]>>
 
 {MUST} declare enum values using UPPER_SNAKE_CASE format <<240,[240]>>
 
@@ -57,7 +57,7 @@ establish "consistent API look and feel" quality.
 | *API naming*    |
 {MUST} use lowercase separate words with hyphens for path segments <<129,[129]>>
 
-{MUST} use snake_case (never camelCase) for query parameters <<130,[130]>>
+{MUST} use camelCase for query parameters <<130,[130]>>
 
 {MUST} pluralize resource names <<134,[134]>>
 
