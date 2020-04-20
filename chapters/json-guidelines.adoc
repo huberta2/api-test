@@ -15,17 +15,24 @@ ones about values.
 == {MUST} property names must be ASCII snake_case (and never camelCase): `^[a-z_][a-z_0-9]*$`
 ////
 [#118]
-== {MUST} property names must be ASCII camelCase:
+== {MUST} property names must be ASCII camelCase
 
-Property names are restricted to ASCII strings. The first
-character must be a letter, and subsequent
-characters can be a letter, an hyphens, or a number.
+Property names are restricted to ASCII strings. SISMAGE API and Apollo uses camel case convention
+for property names, where the first word of a property is lowercase, and all additional words in
+the name are capitalized. 
 
+Rationale: SISMAGE API & Apollo decided to use camelCase because this naming convention is used by 
+many popular Internet companies like Google and Amazon and because camelCase is quite similar to 
+PascalCase (used in Oils & Gas industry standards like Energistics). It’s essential to establish a consistent look and feel such that JSON looks as if it came from the same hand.
+
+////
+*APOLLO-Commented paragraph* not in APOLLO context 
 Rationale: No established industry standard exists, but many popular Internet
 companies prefer snake_case: e.g. GitHub, Stack Exchange, Twitter.
 Others, like Google and Amazon, use both - but not only camelCase. It’s
 essential to establish a consistent look and feel such that JSON looks
 as if it came from the same hand.
+////
 
 [#240]
 == {MUST} declare enum values using UPPER_SNAKE_CASE format
