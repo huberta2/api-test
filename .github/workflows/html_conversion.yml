@@ -35,7 +35,7 @@ jobs:
         git config --global user.email "a.hubert2014@hotmail.com"
         git config --global user.name "huberta2"
         git checkout gh-pages
-        git push -u https://github.com/huberta2/sismage-apollo-api-guidelines.git -f
+        git push -u https://$REPO_KEY:x-oauth-basic@github.com/huberta2/sismage-apollo-api-guidelines.git -f
       env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
         USERNAME: github-actions
