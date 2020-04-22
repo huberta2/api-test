@@ -31,13 +31,6 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: | 
-        git config --global user.email "asmaa.hubert@external.total.com"
-        git config --global user.name "asmaa hubert"
-        git init
-        git add --all
-        git commit -m "Initial Commit"
-        git remote add origin https://carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
-        git push -u origin master https://l0538434:jDZtB6T2G@carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
-      env:
+       env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
         USERNAME: github-actions
