@@ -37,8 +37,7 @@ jobs:
         git add --all
         git commit -m "Initial Commit"
         git remote add origin https://carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
-        git push -u origin gh-pages https://l0538434:jDZtB6T2G@carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
-        git remote add https://carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
+        git push -u origin master https://l0538434:jDZtB6T2G@carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
       env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
         USERNAME: github-actions
