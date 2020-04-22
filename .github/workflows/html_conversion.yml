@@ -22,20 +22,21 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: master
+        publish_branch: gh-pages
         publish_dir: ./
-    - name : Checkout master
+    - name : Checkout gh-pages
       uses: actions/checkout@v2
       with:
         fetch-depth: '0'
-        ref: 'master'
+        ref: 'gh-pages'
         persist-credentials: false
     - run: | 
-        git remote add publication https://github.com/huberta2/sismage-apollo-api-guidelines.git
-        git config --global user.email "a.hubert2014@hotmail.com"
+        git remote add publication https://carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git
+        git config --global user.email "asmaa.hubert@external.total.com"
         git config --global user.name "huberta2"
         git checkout gh-pages
-        git push -u https://github.com/huberta2/sismage-apollo-api-guidelines.git -f
+        git push -u https://l0538434:jDZtB6T2@carbon-bitbucket.valiantys.net/scm/ap/sismage-apollo-api-guidelines.git -f
       env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
         USERNAME: github-actions
+© 2020 GitHub, Inc.
