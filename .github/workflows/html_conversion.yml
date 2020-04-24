@@ -30,7 +30,8 @@ jobs:
         fetch-depth: '0'
         ref: 'gh-pages'
         persist-credentials: false
-    - run: | 
+    - run: 
+         docker pull dockerfile/nginx 
        env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
         USERNAME: github-actions
