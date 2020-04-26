@@ -4,4 +4,4 @@ FROM nginx:1.17
 RUN rm -rf /usr/share/nginx/html/*
 
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY error-html /usr/share/nginx/html/error-html
+COPY index.html /usr/share/nginx/html/
