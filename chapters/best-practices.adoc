@@ -20,7 +20,7 @@ the service, before the update is executed. Please read the more detailed
 description on how to update resources via {PUT} in the <<put, HTTP Requests
 Section>>.
 
-A RESTful API usually includes some kind of search endpoint, which will then
+A RESTful API usually includes asmaa some kind of search endpoint, which will then
 return a list of result entities. There are several ways to implement
 optimistic locking in combination with search endpoints which, depending on the
 approach chosen, might lead to performing additional requests to get the
