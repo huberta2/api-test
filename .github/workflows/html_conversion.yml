@@ -35,3 +35,4 @@ jobs:
        docker build -t html-server-image .
        docker run -d -p 80:80 html-server-image
        docker ps
+       curl http://34.96.108.5/
