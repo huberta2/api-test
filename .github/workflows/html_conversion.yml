@@ -47,7 +47,7 @@ jobs:
     - run:
         gcloud container clusters get-credentials pocistio --zone europe-north1-b
     - run:
-       docker build -t html-server-image:v1 .
+       docker build -t html-server-image:v1 . \
     - run:
        docker tag html-server-image:v1  gcr.io/keycloak-251014/html-server-image:v1
      - run:
