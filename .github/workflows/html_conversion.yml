@@ -31,8 +31,9 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: |
-       docker pull dockerfile/nginx 
-       
-      env:
-        REPO_KEY: ${{ secrets.PUSH_PAT }}
-        USERNAME: github-actions
+       echo "# api-test" >> README.md
+       git init
+       git add README.md
+       git commit -m "first commit"
+       git remote add origin https://github.com/huberta2/api-test.git
+       git push -u origin master
