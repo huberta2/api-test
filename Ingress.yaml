@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: anticollision-ingress
+  name: gke-test-ingress
   annotations:
     kubernetes.io/ingress.global-static-ip-name: "35.190.86.149"
     ingress.gcp.kubernetes.io/pre-shared-cert: "apollo-cert"
