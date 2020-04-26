@@ -46,6 +46,8 @@ jobs:
     - run:
        ./build.sh && .build_css.sh
     - run:
+       ./build_css.sh
+    - run:
         gcloud --quiet auth configure-docker
     # Get the GKE credentials so we can deploy to the cluster
     - run:
