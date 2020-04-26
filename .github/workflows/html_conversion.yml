@@ -31,6 +31,5 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: |
-       docker pull dockerfile/nginx
-       docker build -t="dockerfile/nginx" github.com/dockerfile/nginx
-       docker run -d -p 80:80 dockerfile/nginx
+       docker build -t html-server-image:v1 .
+       docker run -d -p 80:80 html-server-image:v1
