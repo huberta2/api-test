@@ -47,11 +47,11 @@ jobs:
     - run:
         gcloud container clusters get-credentials pocistio --zone europe-north1-b
     - run:
-        docker build -t html-server-image:v2 .
+        docker build -t html-server-image:$GITHUB_SHA .
     - run: 
-        docker tag html-server-image:v2  gcr.io/keycloak-251014/html-server-image:v2
+        docker tag html-server-image:$GITHUB_SHA  gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
     - run: 
-        docker push gcr.io/keycloak-251014/html-server-image:v2
+        docker push gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
             # Set up kustomize
     - name: Set up Kustomize
       run: |-
