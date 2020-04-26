@@ -4,6 +4,11 @@ on:
   push:
     branches:
     - master
+env:
+  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
+  GKE_CLUSTER: pocistio   # TODO: update to cluster name
+  GKE_ZONE: europe-north1-b   # TODO: update to cluster zone
+  IMAGE: static-site:
 jobs:
   adoc_build:
     runs-on: ubuntu-18.04
@@ -30,10 +35,24 @@ jobs:
         fetch-depth: '0'
         ref: 'gh-pages'
         persist-credentials: false
-    - run: |
-       git branch 
+    # Setup gcloud CLI
+    - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+      with:
+        version: '286.0.0'
+        service_account_email: ${{ secrets.GKE_SA_EMAIL }}
+        service_account_key: ${{ secrets.GKE_SA_KEY }}
+        project_id: ${{ secrets.GKE_PROJECT }}
+
+    # Configure Docker to use the gcloud command-line tool as a credential
+    # helper for authentication
+    - run: |-
+        gcloud --quiet auth configure-docker
+    # Get the GKE credentials so we can deploy to the cluster
+    - run: |-
+        gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
+    - run: 
+       gcloud --quiet auth configure-docker
+       gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
        docker build -t html-server-image:v1 .
-       ##docker run --name nginx-test5 -p 80:80 -d html-server-image:v5
-       docker run -d -p 80:80 html-server-image:v1
-       docker ps
-       curl http://34.96.108.5/index.html
+       docker tag html-server-image:v1  gcr.io/${{ secrets.GKE_PROJECT }}/html-server-image:v1 
+       docker push gcr.io/${{ secrets.GKE_PROJECT }}/html-server-image:v1
