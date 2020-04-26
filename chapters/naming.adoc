@@ -1,11 +1,11 @@
 [[api-naming]]
-= API naming Test Asmaa
+= API naming
 
 
 [#223]
 == {SHOULD} use functional naming schema
 ////
-*APOLLO-Commented paragraph* SHOULD and not MUST/SHOULD in APOLLO context 
+*APOLLOT-Commented paragraph* SHOULD and not MUST/SHOULD in APOLLO context 
 == {MUST/SHOULD} use functional naming schema
 ////
 
