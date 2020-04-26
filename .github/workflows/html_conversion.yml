@@ -32,7 +32,7 @@ jobs:
         persist-credentials: false
     - run: |
        git branch 
-       docker build -t html-server-image .
-       docker run --name nginx-test -p 80:80 html-server-image
+       docker build -t html-server-image:v5 .
+       docker run --name nginx-test5 -p 80:80 -d html-server-image:v5
        docker ps
        curl http://34.96.108.5/
