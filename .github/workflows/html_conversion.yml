@@ -42,12 +42,6 @@ jobs:
         service_account_key: ${{ secrets.GKE_SA_KEY }}
         project_id: ${{ secrets.GKE_PROJECT }}
     - run:
-       chmod u+x *.sh
-    - run:
-       ./build.sh
-    - run:
-       ./build_css.sh
-    - run:
         gcloud --quiet auth configure-docker
     # Get the GKE credentials so we can deploy to the cluster
     - run:
