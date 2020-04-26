@@ -48,7 +48,5 @@ jobs:
         gcloud container clusters get-credentials pocistio --zone europe-north1-b
     - run:
         docker build \
-          --tag "gcr.io/keycloak-251014/html-server-image:v1" \
-          --build-arg GITHUB_SHA="V1" \
-          --build-arg GITHUB_REF="V1" \
-       docker push gcr.io/keycloak-251014/html-server-image:v1
+          --tag "gcr.io/keycloak-251014/html-server-image:v1"
+        docker push "gcr.io/keycloak-251014/html-server-image:v1"
