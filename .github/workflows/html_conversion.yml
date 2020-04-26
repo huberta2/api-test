@@ -43,6 +43,7 @@ jobs:
         project_id: ${{ secrets.GKE_PROJECT }}
     - run:
        chmod u+x ./build*.sh
+    - run:
        ./build.sh && .build_css.sh
     - run:
         gcloud --quiet auth configure-docker
