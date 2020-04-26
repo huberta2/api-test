@@ -1,4 +1,7 @@
-FROM nginx:alpine
+FROM nginx:1.17
 
-COPY default.conf /etc/nginx/conf.d/
-COPY index.html /usr/share/nginx/html/
+# SSI NGINX 004: clean files in html folder
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY error-html /usr/share/nginx/html/error-html
