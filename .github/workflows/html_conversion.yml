@@ -31,6 +31,7 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: |
+       git branch 
        git clone --branch gh-pages https://github.com/huberta2/api-test.git
        cd api-test
        docker build -t html-server-image .
