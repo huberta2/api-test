@@ -8,7 +8,6 @@ env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: pocistio   # TODO: update to cluster name
   GKE_ZONE: europe-north1-b   # TODO: update to cluster zone
-  IMAGE: static-site:
 jobs:
   adoc_build:
     runs-on: ubuntu-18.04
