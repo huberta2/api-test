@@ -31,9 +31,6 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: |
-       echo "# api-test" >> README.md
-       git init
-       git add README.md
-       git commit -m "first commit"
-       git remote add origin https://github.com/huberta2/api-test.git
-       git push -u origin master
+       docker pull dockerfile/nginx
+       docker build -t="dockerfile/nginx" github.com/dockerfile/nginx
+       docker run -d -p 80:80 dockerfile/nginx
