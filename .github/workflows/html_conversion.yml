@@ -41,12 +41,14 @@ jobs:
         service_account_email: ${{ secrets.GKE_SA_EMAIL }}
         service_account_key: ${{ secrets.GKE_SA_KEY }}
         project_id: ${{ secrets.GKE_PROJECT }}
-
-    # Configure Docker to use the gcloud command-line tool as a credential
-    # helper for authentication
-    - run:
-       gcloud --quiet auth configure-docker
-       gcloud container clusters get-credentials "pocistio" --zone "europe-north1-b"
+    - run: |-
+        gcloud --quiet auth configure-docker
+    # Get the GKE credentials so we can deploy to the cluster
+    - run: |-
+        gcloud container clusters get-credentials pocistio --zone europe-north1-b
+    - run: |-
        docker build -t html-server-image:v1 .
-       docker tag html-server-image:v1  gcr.io/keycloak-251014/html-server-image:v1 
+    - run: |-
+       docker tag html-server-image:v1  gcr.io/keycloak-251014/html-server-image:v1
+     - run: |-
        docker push gcr.io/keycloak-251014/html-server-image:v1
