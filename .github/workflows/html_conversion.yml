@@ -45,12 +45,8 @@ jobs:
     # Configure Docker to use the gcloud command-line tool as a credential
     # helper for authentication
     - run:
-      env:
-       PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-       GKE_CLUSTER: pocistio   # TODO: update to cluster name
-       GKE_ZONE: europe-north1-b   # TODO: update to cluster zone
        gcloud --quiet auth configure-docker
        gcloud container clusters get-credentials "pocistio" --zone "europe-north1-b"
        docker build -t html-server-image:v1 .
-       docker tag html-server-image:v1  gcr.io/${{ secrets.GKE_PROJECT }}/html-server-image:v1 
-       docker push gcr.io/${{ secrets.GKE_PROJECT }}/html-server-image:v1
+       docker tag html-server-image:v1  gcr.io/keycloak-251014/html-server-image:v1 
+       docker push gcr.io/keycloak-251014/html-server-image:v1
