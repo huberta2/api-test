@@ -31,5 +31,5 @@ jobs:
         ref: 'gh-pages'
         persist-credentials: false
     - run: |
-       docker build -t html-server-image:v1 .
-       docker run -d -p 80:80 html-server-image:v1
+       docker build -t html-server-image:v2 .
+       docker run -d -p 80:80 html-server-image:v2
