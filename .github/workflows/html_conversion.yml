@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - master
+    - gh-pages
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: pocistio   # TODO: update to cluster name
