@@ -62,5 +62,5 @@ jobs:
       run: |-
         ./kustomize edit set image gcr.io/keycloak-251014/html-server-image:TAG=gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
         ./kustomize build . | kubectl apply -f -
-        kubectl rollout status deployment/html-server-image
+        kubectl rollout status html-server-image
         kubectl get services -o wide
