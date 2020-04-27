@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: gke-test
-        image: gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
+        image: gcr.io/keycloak-251014/html-server-image:TAG
         ports:
         - containerPort: 5000
         resources:
