@@ -34,15 +34,6 @@ jobs:
         fetch-depth: '0'
         ref: 'gh-pages'
         persist-credentials: false
-    - run:
-        git remote add publication https://github.com/huberta2/api-test.git
-        git config --global user.email "a.hubert2014@hotmail.com"
-        git config --global user.name "huberta2"
-        git checkout gh-pages
-        git push -u https://$REPO_KEY:x-oauth-basic@github.com/huberta2/api-test.git -f
-      env:
-        REPO_KEY: ${{ secrets.PUSH_PAT }}
-        USERNAME: github-actions
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
         version: '286.0.0'
