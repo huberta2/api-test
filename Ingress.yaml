@@ -8,7 +8,7 @@ metadata:
 
 spec:
   rules:
-  - host: 35.190.86.149
+  - host: restful-api-guidelines.apollo.total
     http:
       paths:
       - backend:
