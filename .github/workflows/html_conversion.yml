@@ -34,7 +34,7 @@ jobs:
       with:
         fetch-depth: '0'
         ref: 'gh-pages'
-        persist-credentials: true
+        persist-credentials: false
     # Setup gcloud CLI
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
@@ -61,5 +61,5 @@ jobs:
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
       run: |-
-        ./kustomize edit set image gcr.io/keycloak-251014/html-server-image:v1=gcr.io/keycloak-251014/html-server-image:v1
+        ./kustomize edit set image gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA=gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
         ./kustomize build . | kubectl apply -f -
