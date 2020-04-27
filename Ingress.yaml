@@ -3,12 +3,12 @@ kind: Ingress
 metadata:
   name: gke-test-ingress
   annotations:
-    kubernetes.io/ingress.global-static-ip-name: "35.190.86.149"
+    kubernetes.io/ingress.global-static-ip-name: "web-static-ip2"
     ingress.gcp.kubernetes.io/pre-shared-cert: "apollo-cert"
 
 spec:
   rules:
-  - host: restful-api-guidelines.apollo.total
+  - host: 35.190.86.149
     http:
       paths:
       - backend:
