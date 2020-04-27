@@ -4,7 +4,6 @@ on:
   push:
     branches:
     - master
-    - gh-pages
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GKE_CLUSTER: pocistio   # TODO: update to cluster name
@@ -43,7 +42,7 @@ jobs:
         git push -u https://$REPO_KEY:x-oauth-basic@github.com/huberta2/api-test.git -f
       env:
         REPO_KEY: ${{ secrets.PUSH_PAT }}
-        USERNAME: github-actions:
+        USERNAME: github-actions
     # Setup gcloud CLI
     - name : Deploy
     - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
