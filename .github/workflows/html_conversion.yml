@@ -47,11 +47,11 @@ jobs:
     - run:
         gcloud container clusters get-credentials pocistio --zone europe-north1-b
     - run:
-        docker build -t html-server-image:v1 .
+        docker build -t html-server-image:$GITHUB_SHA .
     - run: 
-        docker tag html-server-image:v1  gcr.io/keycloak-251014/html-server-image:v1
+        docker tag html-server-image:$GITHUB_SHA  gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
     - run: 
-        docker push gcr.io/keycloak-251014/html-server-image:v1
+        docker push gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
             # Set up kustomize
     - name: Set up Kustomize
       run: |-
@@ -60,5 +60,7 @@ jobs:
     # Deploy the Docker image to the GKE cluster
     - name: Deploy
       run: |-
-        ./kustomize edit set image gcr.io/keycloak-251014/html-server-image:v1=gcr.io/keycloak-251014/html-server-image:v1
+        ./kustomize edit set image gcr.io/keycloak-251014/html-server-image:TAG=gcr.io/keycloak-251014/html-server-image:$GITHUB_SHA
         ./kustomize build . | kubectl apply -f -
+        kubectl rollout status deployment/html-server-image
+        kubectl get services -o wide
