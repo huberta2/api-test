@@ -20,4 +20,4 @@ RUN apk add --no-cache gcc
 RUN luarocks install lua-resty-openidc
 
 COPY . /usr/share/nginx/html
-COPY . nginx.conf
+COPY  nginx.conf /etc/nginx/conf.d/
