@@ -10,7 +10,7 @@
 # implied. See the License for the specific language governing permissions and limitations under the
 # License.
 
-FROM openresty/openresty:alpine-fat
+FROM openresty/openresty:alpine
 
 RUN mkdir /var/log/nginx
 
@@ -20,4 +20,4 @@ RUN apk add --no-cache gcc
 RUN luarocks install lua-resty-openidc
 
 COPY . /usr/share/nginx/html
-COPY  nginx.conf /etc/nginx/conf.d/
+COPY  default.conf//etc/nginx/conf.d/
