@@ -19,6 +19,5 @@ RUN apk add --no-cache git
 RUN apk add --no-cache gcc
 RUN luarocks install lua-resty-openidc
 
-ENTRYPOINT ["/usr/local/openresty/nginx/sbin/nginx", "-g", "daemon off;"]
 COPY . /usr/share/nginx/html
 COPY . nginx.conf
