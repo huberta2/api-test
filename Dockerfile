@@ -1,11 +1,12 @@
 FROM openresty/openresty:alpine-fat
-COPY default.conf /etc/nginx/conf.d/default.conf
 RUN mkdir /var/log/nginx
 
 RUN apk add --no-cache openssl-dev
 RUN apk add --no-cache git
 RUN apk add --no-cache gcc
 RUN luarocks install lua-resty-openidc
+COPY default.conf /etc/nginx/conf.d/default.conf
+COPY . /usr/share/nginx/html
 
-ENTRYPOINT ["/usr/local/openresty/nginx/sbin/nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/usr/share/nginx/html", "-g", "daemon off;"]
 EXPOSE 80
