@@ -1,5 +1,5 @@
 FROM openresty/openresty:alpine-fat
-
+COPY default.conf /etc/nginx/conf.d/default.conf
 RUN mkdir /var/log/nginx
 
 RUN apk add --no-cache openssl-dev
