@@ -8,5 +8,4 @@ RUN luarocks install lua-resty-openidc
 COPY default.conf /etc/nginx/conf.d/default.conf
 COPY . /usr/share/nginx/html
 
-ENTRYPOINT ["/usr/share/nginx/html", "-g", "daemon off;"]
 EXPOSE 80
