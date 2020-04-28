@@ -48,7 +48,7 @@ spec:
           --upstream-url=http://127.0.0.1:80
           --resources=uri=/*|roles=tdesk-user
           --resources=uri=/manifest.json|white-listed=true
-          --cookie-domain=https://restful-api-guidelines.apollo.total
+          --cookie-domain=https://restful-api-guidelines.apollo.total]
         ports:
           - containerPort: 3000
         livenessProbe:
