@@ -37,18 +37,18 @@ spec:
             memory: 200Mi
       - name: gatekeeper
         image: quay.io/keycloak/keycloak-gatekeeper
-        args: [
-          --discovery-url=https://keycloakp.apollo.total/auth/realms/t-desk-poc
-          --client-id=clientGatekeeper
-          --client-secret=7c4ddb7f-2fe3-4536-81a8-1ad12afc1a12
-          --listen=:3000
-          --redirection-url=https://restful-api-guidelines.apollo.total
-          --enable-refresh-tokens=true
-          --encryption-key=9Eogz22uDUOu5HJLvWqt0Vk5C6EyuxSq
-          --upstream-url=http://127.0.0.1:80
-          --resources=uri=/*|roles=tdesk-user
-          --resources=uri=/manifest.json|white-listed=true
-          --cookie-domain=https://restful-api-guidelines.apollo.total]
+        args:
+        - --discovery-url=https://keycloakp.apollo.total/auth/realms/t-desk-poc
+        - --client-id=clientGatekeeper
+        - --client-secret=7c4ddb7f-2fe3-4536-81a8-1ad12afc1a12
+        - --listen=:3000
+        - --redirection-url=https://restful-api-guidelines.apollo.total/
+        - --enable-refresh-tokens=true
+        - --encryption-key=9Eogz22uDUOu5HJLvWqt0Vk5C6EyuxSq
+        - --upstream-url=http://127.0.0.1:80
+        - --resources=uri=/*|roles=tdesk-user
+        - --resources=uri=/manifest.json|white-listed=true
+        - --cookie-domain=https://restful-api-guidelines.apollo.total/
         ports:
           - containerPort: 3000
         livenessProbe:
