@@ -34,7 +34,7 @@ jobs:
         fetch-depth: '0'
         ref: 'gh-pages'
         persist-credentials: false
-    - uses: GoogleCloudPlatform/github-actions/setup-gcloud@gh-pages
+    - uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
       with:
         version: '286.0.0'
         service_account_email: ${{ secrets.GKE_SA_EMAIL }}
